@@ -2476,18 +2476,58 @@ code {
 }
 
 /*! ClearVision v7.0.1 by ClearVision Team */
+@keyframes context-menu-appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes context-menu-item-hover {
+    0% {
+        background-color: transparent;
+        transform: translateX(0);
+    }
+    100% {
+        background-color: var(--hsl-hover-color);
+        transform: translateX(5px);
+    }
+}
+
 .menu_c1e9c4 {
     background: var(--hsl-popout-shading);
     border: none;
-    border-radius: 5px
+    border-radius: 5px;
+    animation: context-menu-appear 0.2s ease-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.menu_c1e9c4 .item_c1e9c4 {
+    transition: all 0.15s ease-in-out;
+    border-radius: 3px;
+    margin: 1px 2px;
+}
+
+.menu_c1e9c4 .item_c1e9c4:hover {
+    animation: context-menu-item-hover 0.15s ease-out forwards;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .colorDefault_c1e9c4.focused_c1e9c4 {
-    background-color: var(--hsl-hover-color)
+    background-color: var(--hsl-hover-color);
+    transform: translateX(3px);
+    transition: all 0.15s ease-in-out;
 }
 
 .colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
-    background-color: var(--hsl-main-color)
+    background-color: var(--hsl-main-color);
+    transform: scale(0.98);
+    transition: all 0.1s ease-in-out;
 }
 
 .colorDanger_c1e9c4.focused_c1e9c4 {

@@ -11233,7 +11233,24 @@ div#magane div.stickerWindow div.packs-toolbar {
 .visual-refresh .bg__960e4 {
     background: var(--background-image) var(--background-position)/var(--background-size) var(--background-repeat) var(--background-attachment);
     filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia)) invert(var(--background-invert)) brightness(var(--background-brightness)) contrast(var(--background-contrast)) saturate(var(--background-saturation)) blur(var(--background-blur));
-    z-index: -9999
+    z-index: -9999;
+    position: relative
+}
+
+.visual-refresh .bg__960e4::before {
+    content: "ShenGun";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 120px;
+    font-weight: bold;
+    font-family: var(--main-font);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    z-index: -9998;
+    white-space: nowrap
 }
 
 .visual-refresh .wrapper_ef3116,

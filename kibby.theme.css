@@ -2479,22 +2479,20 @@ code {
 @keyframes context-menu-appear {
     0% {
         opacity: 0;
-        transform: scale(0.95) translateY(-10px);
+        transform: scale(0.95);
     }
     100% {
         opacity: 1;
-        transform: scale(1) translateY(0);
+        transform: scale(1);
     }
 }
 
 @keyframes context-menu-item-hover {
     0% {
         background-color: transparent;
-        transform: translateX(0);
     }
     100% {
         background-color: var(--hsl-hover-color);
-        transform: translateX(5px);
     }
 }
 
@@ -2520,7 +2518,6 @@ code {
 
 .colorDefault_c1e9c4.focused_c1e9c4 {
     background-color: var(--hsl-hover-color);
-    transform: translateX(3px);
     transition: all 0.15s ease-in-out;
 }
 
@@ -2532,7 +2529,6 @@ code {
 
 .colorDanger_c1e9c4.focused_c1e9c4 {
     background-color: var(--hsl-danger-color);
-    transform: translateX(3px);
     transition: all 0.15s ease-in-out;
     box-shadow: 0 0 8px rgba(152, 41, 41, 0.3);
 }

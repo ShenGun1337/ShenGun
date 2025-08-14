@@ -1,4 +1,4 @@
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 @keyframes cv-channel-select {
     from {
         right: 100%
@@ -23,7 +23,7 @@
     }
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .info__2debe::after {
     content: "ShenGun" " " "1337";
     color: var(--text-muted);
@@ -56,7 +56,7 @@
     order: 3
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .button__201d5 {
     border-radius: 4px
 }
@@ -215,7 +215,7 @@
     color: var(--control-text-critical-primary-default)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .checkbox_f525d3 {
     border-radius: 4px
 }
@@ -225,7 +225,7 @@
     background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .wrapper_d14335 {
     background: var(--hsl-input-shading);
     border-color: var(--hsl-input-border-shading)
@@ -244,7 +244,7 @@
     color: var(--text-muted)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .item__001a7[aria-checked=true] {
     background-color: rgba(0, 0, 0, 0)
 }
@@ -283,7 +283,7 @@
     background-color: var(--radio-bar-accent-color, var(--hsl-main-color))
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .slider_a562c8 .bar_a562c8,
 .slider_a562c8 .markDash_a562c8 {
     background: var(--hsl-card-shading)
@@ -297,7 +297,7 @@
     filter: drop-shadow(0 0 3px var(--hsl-main-color))
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container__87bf1 {
     background: hsl(from var(--interactive-normal) h s l/0.2) !important
 }
@@ -310,7 +310,7 @@
     fill: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .top_b3f026 .item_b3f026 {
     --selected-tab-item-color: var(--hsl-hover-color)
 }
@@ -355,7 +355,7 @@
     margin-left: 5px
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container_a45028 {
     background: var(--hsl-input-shading);
     border-color: var(--hsl-input-border-shading)
@@ -376,7 +376,7 @@
     box-shadow: 0 0 2px 0 var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(html, body, .appMount__51fd7) {
     background: none
 }
@@ -413,7 +413,7 @@
     box-shadow: 0 0 0 4px var(--focus-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 ::-moz-placeholder {
     font-family: var(--main-font)
 }
@@ -441,7 +441,7 @@ code {
     color: var(--text-default)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .bar_c38106 {
     background-color: rgba(0, 0, 0, 0);
     padding-left: 0
@@ -452,7 +452,7 @@ code {
     margin: 0 6px
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .notice__6e2b9 {
     border-radius: 4px
 }
@@ -469,7 +469,7 @@ code {
     --custom-notice-background: hsl(from var(--hsl-streaming-color) h s l/.8)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(.auto__99f8c, .auto_d125d2)::-webkit-scrollbar {
     width: 14px
 }
@@ -502,7 +502,7 @@ code {
     background-color: var(--hsl-hover-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .mediaBarProgress_b26b79,
 .mediaBarProgress_b26b79::before,
 .mediaBarProgress_b26b79::after {
@@ -515,7 +515,7 @@ code {
     background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .authBox__921c5 {
     background-color: var(--hsl-modal-shading)
 }
@@ -528,14 +528,14 @@ code {
     background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .numberBadge__2b1f5,
 .textBadge__2b1f5 {
     background: var(--hsl-main-color) !important;
     color: var(--header-primary)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .refresh-fast-follow-guild-bg.visual-refresh .bg__960e4 {
     background: var(--background-image) var(--background-position)/var(--background-size) no-repeat;
     background-attachment: var(--background-attachment);
@@ -547,7 +547,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .chat_f75fb0 {
     background: rgba(0, 0, 0, 0)
 }
@@ -596,7 +596,7 @@ code {
     background: hsl(from var(--custom-role-label-color) h s l/0.2)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .form_f75fb0 {
     margin-top: 4px
 }
@@ -653,7 +653,7 @@ code {
     border-top-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .wrapper_cb9592,
 .channelChatWrapper_cb9592 {
     background: rgba(0, 0, 0, 0)
@@ -704,7 +704,7 @@ code {
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .divider__908e2 {
     --divider-color: var(--hsl-main-color)
 }
@@ -742,7 +742,7 @@ code {
     background: var(--divider-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .avatar_c19a55 {
     transition: all .3s ease-in-out, transform .1s ease-in-out
 }
@@ -1018,7 +1018,7 @@ code {
     --custom-poll-style-border: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container_f369db {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3))
 }
@@ -1154,7 +1154,7 @@ code {
     animation: cv-card-loading 1.5s infinite ease-in-out
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .resizeHandle__01ae2 {
     background: rgba(0, 0, 0, 0)
 }
@@ -1190,7 +1190,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .newMessagesBar__0f481 {
     top: 4px;
     right: 8px;
@@ -1221,7 +1221,7 @@ code {
     border: none
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .reactions__23977 {
     border-radius: 4px
 }
@@ -1255,7 +1255,7 @@ code {
     border-radius: 4px
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .searchResultsWrap_a9e706 {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3));
     border: none
@@ -1279,7 +1279,7 @@ code {
     color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(.theme-dark, .theme-light) .themed__9293f {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5))
 }
@@ -1321,7 +1321,7 @@ code {
     border-bottom-left-radius: 0
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container_c8ffbb {
     background: none;
     border: none
@@ -1507,7 +1507,7 @@ code {
     border: none
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .root__49fc1 {
     background: var(--hsl-modal-shading);
     border: none;
@@ -1520,7 +1520,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container_eb2cd2 {
     border: 2px solid rgba(0, 0, 0, 0);
     background: var(--background-mod-subtle)
@@ -1544,7 +1544,7 @@ code {
     background: var(--background-mod-subtle)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .keyboardShortcutsModal_f061f6,
 .keybindGroup_f061f6 {
     background: var(--hsl-modal-shading)
@@ -1560,7 +1560,7 @@ code {
     box-shadow: inset 0 -2px var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .quickswitcher_ac6cb0 {
     background: var(--hsl-modal-shading);
     border: none
@@ -1592,7 +1592,7 @@ code {
     background: var(--hsl-hover-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .scroller_cc2dff,
 .reactors_cc2dff {
     background: rgba(0, 0, 0, 0)
@@ -1602,7 +1602,7 @@ code {
     border: 1px solid var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .pillContainer__9e06a {
     background: var(--background-mod-subtle)
 }
@@ -1615,7 +1615,7 @@ code {
     border-color: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .spinner_ca0af2 {
     background: rgba(0, 0, 0, 0)
 }
@@ -1677,7 +1677,7 @@ code {
     box-shadow: none
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .uploadDropModal_dbca3c .bgScale_dbca3c {
     background: var(--hsl-main-color)
 }
@@ -1686,7 +1686,7 @@ code {
     border-color: var(--header-primary)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .selectorButton__0907c {
     background: var(--background-mod-subtle)
 }
@@ -1707,7 +1707,7 @@ code {
     background: var(--background-mod-subtle)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .modal__9a792 {
     background: var(--hsl-modal-shading) !important
 }
@@ -1716,7 +1716,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .pillIconOnline__921c5 {
     background: var(--hsl-online-color)
 }
@@ -1725,12 +1725,12 @@ code {
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(.actionButtons_cc1819, .closeButton__6088c) {
     background: var(--hsl-modal-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container__53cea {
     background: var(--hsl-modal-shading);
     border: none
@@ -1754,7 +1754,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .scroller__6fd0e {
     background: rgba(0, 0, 0, 0)
 }
@@ -1778,7 +1778,7 @@ code {
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(.theme-dark, .theme-light) .header__0b563 {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5)) !important;
     border-top: none
@@ -1861,7 +1861,7 @@ code {
     background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container__551b0 {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.2))
 }
@@ -1978,7 +1978,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .tabBody__133bf {
     background: none
 }
@@ -2089,7 +2089,7 @@ code {
     background-color: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .page_c791b2 {
     background: rgba(0, 0, 0, 0) !important
 }
@@ -2111,12 +2111,12 @@ code {
     background: var(--background-mod-subtle)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .list_f391e3 {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .applicationStore_f07d62 {
     background: rgba(0, 0, 0, 0)
 }
@@ -2194,7 +2194,7 @@ code {
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .background__7449f :is(.scrollerBase__99f8c, .scrollerBase_d125d2) {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))
 }
@@ -2218,7 +2218,7 @@ code {
     background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container__89463 {
     background: rgba(0, 0, 0, 0)
 }
@@ -2250,7 +2250,7 @@ code {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3))
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .shopScroll__6db1d,
 .page__1feb0 {
     background: rgba(0, 0, 0, 0)
@@ -2296,13 +2296,13 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .scroller__4a84a,
 .scroller_fb04e1 {
     background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .wrapper__4e6ce {
     background: rgba(0, 0, 0, 0)
 }
@@ -2311,7 +2311,7 @@ code {
     background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .autocomplete__13533 {
     background: var(--hsl-popout-shading);
     box-shadow: none
@@ -2339,7 +2339,7 @@ code {
     background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .lookFilled__3f413.select__3f413 {
     box-shadow: none
 }
@@ -2396,7 +2396,7 @@ code {
     background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .recentMentionsPopout__95796 {
     background: var(--hsl-popout-shading);
     box-shadow: none
@@ -2475,7 +2475,7 @@ code {
     margin: 0
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 @keyframes context-menu-appear {
     0% {
         opacity: 0;
@@ -2518,23 +2518,20 @@ code {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Correction pour les sous-menus contextuels */
-.menu_c1e9c4 .submenu_c1e9c4 {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    margin-left: 2px;
-    background: var(--hsl-popout-shading);
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    animation: context-menu-appear 0.2s ease-out;
+/* Fix pour les sous-menus contextuels Discord */
+.menu_c1e9c4 .submenu_c1e9c4,
+.menu_c1e9c4 [role="menu"] {
+    position: absolute !important;
+    left: 100% !important;
+    top: 0 !important;
+    margin-left: 2px !important;
+    transform: none !important;
 }
 
-/* Assurer que le sous-menu est bien attaché au menu parent */
-.menu_c1e9c4 .item_c1e9c4[data-submenu] {
-    position: relative;
+/* Assurer que les éléments avec sous-menus ont une position relative */
+.menu_c1e9c4 .item_c1e9c4[data-submenu],
+.menu_c1e9c4 .item_c1e9c4[aria-haspopup="true"] {
+    position: relative !important;
 }
 
 .colorDefault_c1e9c4.focused_c1e9c4 {
@@ -2616,7 +2613,7 @@ code {
     fill: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .tooltipPrimary__382e7 {
     background-color: var(--hsl-popout-shading);
     border: none
@@ -2640,7 +2637,7 @@ code {
     border-top-color: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .contentWrapper__08434 {
     background: var(--hsl-popout-shading);
     border: none
@@ -2742,7 +2739,7 @@ code {
     background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .messagesPopoutWrap__45690 {
     background: var(--hsl-popout-shading);
     box-shadow: none
@@ -2769,7 +2766,7 @@ code {
     color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .container__55c99 {
     background: var(--hsl-popout-shading);
     border: none
@@ -2840,7 +2837,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .browser_d98031 {
     background-color: var(--hsl-popout-shading);
     box-shadow: none
@@ -2869,7 +2866,7 @@ code {
     background-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .contentWrapper__9c62c {
     background: var(--hsl-popout-shading);
     box-shadow: none
@@ -2965,7 +2962,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 :is(.picker__09f65, .picker__09f65.refresh__09f65) {
     background: var(--hsl-popout-shading)
 }
@@ -2986,7 +2983,7 @@ code {
     background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .popoutContainer__0f481 {
     background: var(--hsl-popout-shading);
     box-shadow: none;
@@ -3043,7 +3040,7 @@ code {
     background: var(--background-mod-subtle)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .full-motion .translate_faf9c0 {
     transform: unset !important
 }
@@ -3157,7 +3154,7 @@ code {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3))
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .outer_c0bea0:not(.custom-user-profile-theme) .role_dfa8b6 {
     border-radius: 4px;
     position: relative
@@ -3200,7 +3197,7 @@ code {
     border: none
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .mask__44b0c rect[fill*="#82838b"] {
     fill: var(--hsl-offline-color)
 }
@@ -3221,7 +3218,7 @@ code {
     fill: var(--hsl-streaming-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .layer__960e4 {
     background-color: rgba(0, 0, 0, 0)
 }
@@ -3307,7 +3304,7 @@ code {
     background-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .standardSidebarView__23e6b {
     background: rgba(0, 0, 0, 0)
 }
@@ -3317,7 +3314,7 @@ code {
     padding: 20px 8px 60px 20px
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .selectedBackground_e681d1 {
     background: rgba(0, 0, 0, 0)
 }
@@ -3545,7 +3542,7 @@ code {
     background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .settingCard__1a4ef,
 .settingCard__1a4ef.active__1a4ef {
     background: var(--hsl-card-shading)
@@ -3598,7 +3595,7 @@ code {
     background-color: hsl(from var(--hsl-success-color) h s l/0.6)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .itemSelected_ec9088 {
     border: 2px solid var(--hsl-main-color)
 }
@@ -3835,7 +3832,7 @@ code {
     background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .panels_c48ade {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5));
     border-radius: 0;
@@ -3904,7 +3901,7 @@ code {
     color: var(--interactive-normal)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .keyboard-mode .focusStroke_cc5dd2 {
     stroke: var(--focus-color);
     stroke-width: 4px
@@ -3979,7 +3976,7 @@ code {
     background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .wrapperCommon__29444 .mainContent__29444 .name__29444 {
     flex: 1
 }
@@ -4048,7 +4045,7 @@ code {
     display: none
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .newChannel__599fa {
     background: var(--hsl-main-color) !important;
     color: var(--header-primary)
@@ -4232,7 +4229,7 @@ code {
     color: #fff
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .privateChannels__35e86 {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.2));
     padding-bottom: var(--custom-app-panels-height, 0)
@@ -4327,7 +4324,7 @@ code {
     color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.1 by ClearVision Team */
+
 .sidebar_c48ade {
     background: rgba(0, 0, 0, 0)
 }

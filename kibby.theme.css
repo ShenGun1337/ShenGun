@@ -550,7 +550,7 @@ textarea,
 }
 
 .typeWindows__421ed>.wordmark__421ed:before {
-    content: "shengun";
+    content: "ClearVision";
     color: hsla(0, 0%, 100%, .7);
     font-size: 14px;
     text-shadow: 0 0 3px #000
@@ -2390,6 +2390,16 @@ div[aria-checked=true] .mentionButton__841c8 {
 .lookOutlined__201d5:is(.colorWhite__201d5, .colorPrimary__201d5, .colorGreen__201d5, .colorBrand__201d5):hover {
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--hover-color);
+    color: #fff
+}
+
+.lookOutlined__201d5.colorRed__201d5 {
+    border-color: var(--danger-color);
+    color: hsla(0, 0%, 100%, .8)
+}
+
+.lookOutlined__201d5.colorRed__201d5:hover {
+    background-color: rgba(0, 0, 0, 0);
     color: #fff
 }
 
@@ -4449,7 +4459,7 @@ code {
 
 .capnproto,
 .capnp {
-    --lang: "Cap'n Proto"
+    --lang: "Cap’n Proto"
 }
 
 .ceylon {
@@ -5793,10 +5803,6 @@ code {
 
 :is(#message-accessories-1334923587429335090, #message-accessories-1334923616902451291, #message-accessories-1334923643909570610, #message-accessories-1334923675551531149, #message-accessories-1334923711001657496, #message-accessories-1334923802681016390, #message-accessories-1334923852886708337) .textContainer__4d95d::before {
     background: var(--local-image) center/cover no-repeat
-}
-
-:is(#message-accessories-1334923587429335090, #message-accessories-1334923616902451291, #message-accessories-1334923643909570610, #message-accessories-1334923675551531149, #message-accessories-1334923711001657496, #message-accessories-1334923802681016390, #message-accessories-1334923852886708337) .textContainer__4d95d::after {
-    background: var(--preview-overlay, url("https://clearvision.github.io/images/preview_overlay.png")) center/cover no-repeat
 }
 
 :is(#message-accessories-1334923587429335090, #message-accessories-1334923616902451291, #message-accessories-1334923643909570610, #message-accessories-1334923675551531149, #message-accessories-1334923711001657496, #message-accessories-1334923802681016390, #message-accessories-1334923852886708337) .textContainer__4d95d::after {
@@ -9582,6 +9588,10 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
     opacity: .3
 }
 
+.collapseable__217b7 {
+    background-color: var(--card-color)
+}
+
 .collapseable__217b7:active {
     background-color: rgba(0, 0, 0, .6)
 }
@@ -10380,6 +10390,11 @@ html:not(.visual-refresh-chat-input) .inner_a99829 {
     border-color: var(--main-color)
 }
 
+.option_e03935 {
+    background-color: hsla(0, 0%, 100%, .05);
+    opacity: 1
+}
+
 .option_e03935:hover {
     background-color: hsla(0, 0%, 100%, .07);
     opacity: 1
@@ -11170,6 +11185,10 @@ div#magane div.stickerWindow div.packs-toolbar {
     color: var(--text-normal)
 }
 
+.credentialItem__6c75d.container__91a9d {
+    border-radius: 0px
+}
+
 .credentialItem__6c75d.container__91a9d:first-of-type {
     border: none
 }
@@ -11206,40 +11225,4 @@ div#magane div.stickerWindow div.packs-toolbar {
 
 .visual-refresh-chat-input .channelTextArea__74017 {
     background-color: rgba(0, 0, 0, .6)
-}
-
-/* Display "shengun" in top-left corner */
-.visual-refresh::before {
-    content: "shengun" !important;
-    text-align: center;
-    position: absolute;
-    color: #fff;
-    padding: 10px;
-    background-color: #000;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-}
-
-/* Alternative selectors for different Discord versions */
-.wordmark__421ed:before {
-    content: "shengun" !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    z-index: 9999;
-}
-
-.wordmark-2iIfFM:before {
-    content: "shengun" !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    z-index: 9999;
 }

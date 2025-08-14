@@ -103,6 +103,30 @@
     content: "ClearVision";
 }
 
+/* Alternative selectors for different Discord versions */
+.wordmark__421ed:before {
+    content: "ClearVision" !important;
+}
+
+.wordmark-2iIfFM:before {
+    content: "ClearVision" !important;
+}
+
+.wordmark__421ed {
+    display: none;
+}
+
+.wordmark__421ed:after {
+    content: "ClearVision";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 9999;
+}
+
 @keyframes cv-fade-to-1 {
     from {
         opacity: 0

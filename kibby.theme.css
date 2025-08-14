@@ -2499,102 +2499,109 @@ code {
 }
 
 .menu_c1e9c4 {
-    background: var(--hsl-popout-shading);
-    border: none;
-    border-radius: 5px;
-    animation: context-menu-appear 0.2s ease-out;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    background-color: var(--popout-color);
+    animation: cv-menu-fold-y .2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+    transform-origin: 50% 0
 }
 
 .menu_c1e9c4 .item_c1e9c4 {
-    transition: all 0.15s ease-in-out;
-    border-radius: 3px;
-    margin: 1px 2px;
+    transition: all .15s ease-in-out
 }
 
-.menu_c1e9c4 .item_c1e9c4:hover {
-    animation: context-menu-item-hover 0.15s ease-out forwards;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+.menu_c1e9c4 .item_c1e9c4.focused_c1e9c4 {
+    background-color: var(--hover-color);
+    color: #fff
 }
 
-.colorDefault_c1e9c4.focused_c1e9c4 {
-    background-color: var(--hsl-hover-color);
-    transform: translateX(3px);
-    transition: all 0.15s ease-in-out;
+.menu_c1e9c4 .item_c1e9c4.focused_c1e9c4 .checkbox_c1e9c4,
+.menu_c1e9c4 .item_c1e9c4.focused_c1e9c4 .radioSelection_c1e9c4 {
+    color: #fff
 }
 
-.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
-    background-color: var(--hsl-main-color);
-    transform: scale(0.98);
-    transition: all 0.1s ease-in-out;
+.menu_c1e9c4 .item_c1e9c4.focused_c1e9c4 .check_c1e9c4 {
+    fill: var(--main-color)
 }
 
-.colorDanger_c1e9c4.focused_c1e9c4 {
-    background-color: var(--hsl-danger-color);
-    transform: translateX(3px);
-    transition: all 0.15s ease-in-out;
-    box-shadow: 0 0 8px rgba(152, 41, 41, 0.3);
+.menu_c1e9c4 .item_c1e9c4.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
+    background-color: var(--hover-color);
+    color: #fff;
+    border-color: var(--hover-color)
 }
 
-.colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-    fill: var(--interactive-active);
-    transition: fill 0.15s ease-in-out;
+.menu_c1e9c4 .item_c1e9c4 .checkbox_c1e9c4,
+.menu_c1e9c4 .item_c1e9c4 .radioSelection_c1e9c4 {
+    color: var(--main-color)
 }
 
-.colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) {
-    background-color: hsl(from var(--hsl-danger-color) h s l/0.8);
-    color: var(--interactive-active);
-    transform: scale(0.98);
-    transition: all 0.1s ease-in-out;
+.menu_c1e9c4 .colorBrand_c1e9c4 {
+    color: var(--main-color)
 }
 
-.colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) .label_c1e9c4 {
-    color: var(--interactive-active)
+.menu_c1e9c4 .colorDanger_c1e9c4 {
+    color: var(--danger-color)
 }
 
-.item_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
-    color: var(--header-primary)
+.menu_c1e9c4 .colorDanger_c1e9c4.focused_c1e9c4 {
+    background-color: var(--danger-color);
+    color: #fff
 }
 
-.status_a423bd[style*="rgb(130, 131, 139)"] {
-    background-color: var(--hsl-offline-color) !important
+.menu_c1e9c4 .colorDanger_c1e9c4.focused_c1e9c4 .icon_c1e9c4 {
+    transform: rotateY(180deg);
+    transition: all .15s ease-in-out
 }
 
-.status_a423bd[style*="rgb(67, 162, 90)"] {
-    background-color: var(--hsl-online-color) !important
+.button_f563df {
+    background-color: rgba(0, 0, 0, 0)
 }
 
-.status_a423bd[style*="rgb(202, 150, 84)"] {
-    background-color: var(--hsl-idle-color) !important
+.button_f563df.focused_f563df,
+.button_f563df:hover {
+    background-color: rgba(0, 0, 0, 0)
 }
 
-.status_a423bd[style*="rgb(216, 58, 66)"] {
-    background-color: var(--hsl-dnd-color) !important
+.button_f563df.focused_f563df {
+    box-shadow: 0 0 2px 2px var(--hover-color)
 }
 
-.focused_c1e9c4#set-status-submenu-online {
-    background-color: var(--hsl-online-color)
+.premiumUpsell_aae531 {
+    background-color: rgba(0, 0, 0, 0)
 }
 
-.focused_c1e9c4#set-status-submenu-idle {
-    background-color: var(--hsl-idle-color)
+.popout__76f04 {
+    background-color: rgba(0, 0, 0, .8)
 }
 
-.focused_c1e9c4#set-status-submenu-dnd {
-    background-color: var(--hsl-dnd-color)
+.popout__76f04 .row__76f04:hover {
+    background-color: var(--hover-color)
 }
 
-.focused_c1e9c4#set-status-submenu-invisible {
-    background-color: var(--hsl-offline-color)
+.popout__76f04 .more__76f04 {
+    color: var(--main-color)
+}
+
+#set-status-submenu-online.item_c1e9c4.focused_c1e9c4 {
+    background-color: var(--online-color)
+}
+
+#set-status-submenu-idle.item_c1e9c4.focused_c1e9c4 {
+    background-color: var(--idle-color)
+}
+
+#set-status-submenu-dnd.item_c1e9c4.focused_c1e9c4 {
+    background-color: var(--dnd-color)
+}
+
+#set-status-submenu-invisible.item_c1e9c4.focused_c1e9c4 {
+    background-color: var(--offline-color)
 }
 
 .activeIcon_d40c56 path {
-    fill: var(--hsl-main-color)
+    fill: var(--main-color)
 }
 
 .focused_d40c56 .activeIcon_d40c56 circle {
-    fill: var(--hsl-main-color)
+    fill: var(--main-color)
 }
 
 /*! ClearVision v7.0.1 by ClearVision Team */

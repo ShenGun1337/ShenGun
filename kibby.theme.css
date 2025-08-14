@@ -2518,6 +2518,25 @@ code {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Correction pour les sous-menus contextuels */
+.menu_c1e9c4 .submenu_c1e9c4 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: 2px;
+    background: var(--hsl-popout-shading);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    animation: context-menu-appear 0.2s ease-out;
+}
+
+/* Assurer que le sous-menu est bien attaché au menu parent */
+.menu_c1e9c4 .item_c1e9c4[data-submenu] {
+    position: relative;
+}
+
 .colorDefault_c1e9c4.focused_c1e9c4 {
     background-color: var(--hsl-hover-color);
     transform: translateX(3px);

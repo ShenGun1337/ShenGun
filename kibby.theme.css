@@ -99,6 +99,10 @@
     }
 }
 
+.typeWindows__421ed>.wordmark__421ed:before {
+    content: "ClearVision";
+}
+
 @keyframes cv-fade-to-1 {
     from {
         opacity: 0
@@ -556,6 +560,12 @@ textarea,
     text-shadow: 0 0 3px #000
 }
 
+.typeWindows__421ed>.wordmark__421ed:after {
+    content: "v6.9.0";
+    color: hsla(0, 0%, 100%, .3);
+    font-family: var(--code-font);
+    font-size: 10px
+}
 
 .typeWindows__421ed>.wordmark__421ed>svg {
     filter: drop-shadow(0 0 5px var(--main-color));

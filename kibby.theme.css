@@ -2531,16 +2531,22 @@ code {
 }
 
 .colorDanger_c1e9c4.focused_c1e9c4 {
-    background-color: var(--hsl-danger-color)
+    background-color: var(--hsl-danger-color);
+    transform: translateX(3px);
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 0 8px rgba(152, 41, 41, 0.3);
 }
 
 .colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-    fill: var(--interactive-active)
+    fill: var(--interactive-active);
+    transition: fill 0.15s ease-in-out;
 }
 
 .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) {
     background-color: hsl(from var(--hsl-danger-color) h s l/0.8);
-    color: var(--interactive-active)
+    color: var(--interactive-active);
+    transform: scale(0.98);
+    transition: all 0.1s ease-in-out;
 }
 
 .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) .label_c1e9c4 {
@@ -3130,6 +3136,76 @@ code {
 
 .user-profile-sidebar:not(.custom-user-profile-theme) {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3))
+}
+
+/*! ClearVision v7.0.1 by ClearVision Team */
+@keyframes category-button-appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.9) translateY(-5px);
+        filter: blur(2px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        filter: blur(0);
+    }
+}
+
+@keyframes category-button-hover {
+    0% {
+        transform: translateX(0);
+        background-color: transparent;
+        box-shadow: none;
+    }
+    100% {
+        transform: translateX(6px);
+        background-color: var(--hsl-hover-color);
+        box-shadow: 0 2px 8px rgba(205, 151, 204, 0.3);
+    }
+}
+
+/* Animation pour les boutons des catégories de paramètres */
+.sidebarRegionScroller__23e6b .item__344e6 {
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    margin: 1px 3px;
+    position: relative;
+    overflow: hidden;
+    animation: category-button-appear 0.3s ease-out;
+}
+
+.sidebarRegionScroller__23e6b .item__344e6:hover {
+    animation: category-button-hover 0.2s ease-out forwards;
+    border-left: 2px solid var(--hsl-main-color);
+}
+
+.sidebarRegionScroller__23e6b .item__344e6:active {
+    transform: translateX(6px) scale(0.98);
+    transition: all 0.1s ease-in-out;
+}
+
+.sidebarRegionScroller__23e6b .item__344e6.selected__344e6 {
+    background-color: var(--hsl-main-color) !important;
+    transform: translateX(6px);
+    box-shadow: 0 3px 12px rgba(205, 151, 204, 0.4);
+    border-left: 2px solid var(--hsl-hover-color);
+    transition: all 0.25s ease-in-out;
+}
+
+.sidebarRegionScroller__23e6b .item__344e6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.6s ease-in-out;
+}
+
+.sidebarRegionScroller__23e6b .item__344e6:hover::before {
+    left: 100%;
 }
 
 /*! ClearVision v7.0.1 by ClearVision Team */

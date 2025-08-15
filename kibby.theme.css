@@ -26,7 +26,7 @@
     --members-width: 240px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://images8.alphacoders.com/767/767470.jpg);
+    --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -3200,7 +3200,7 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleColumn__133bf {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.4))
+    background: var(--background-overlay)
 }
 
 .searchBar__5ec2f {
@@ -3214,12 +3214,13 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleListItem_cc6179 {
-    border-top: 1px solid hsla(0, 0%, 100%, .1)
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+    background: var(--background-overlay)
 }
 
 .peopleListItem_cc6179:hover,
 .peopleListItem_cc6179.active_cc6179 {
-    background-color: hsla(0, 0%, 100%, .05)
+    background: var(--background-overlay)
 }
 
 .activity__19b6d {
@@ -7678,11 +7679,12 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .friend_bbd192 {
-    transition: all .15s ease-in-out
+    transition: all .15s ease-in-out;
+    background: var(--background-overlay)
 }
 
 .theme-dark .friend_bbd192.friendSelected_bbd192 {
-    background: hsla(0, 0%, 100%, .1)
+    background: var(--background-overlay)
 }
 
 .theme-dark .friend_bbd192.friendSelected_bbd192 .nickname_bbd192 {

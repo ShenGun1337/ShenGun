@@ -3200,7 +3200,7 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleColumn__133bf {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.4))
 }
 
 .searchBar__5ec2f {
@@ -3219,7 +3219,7 @@ textarea::-webkit-scrollbar {
 
 .peopleListItem_cc6179:hover,
 .peopleListItem_cc6179.active_cc6179 {
-    background: rgba(255, 255, 255, 0.05)
+    background-color: hsla(0, 0%, 100%, .05)
 }
 
 .activity__19b6d {
@@ -3323,7 +3323,7 @@ textarea::-webkit-scrollbar {
 }
 
 .nowPlayingColumn__133bf {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6))
 }
 
 .container__7d20c {

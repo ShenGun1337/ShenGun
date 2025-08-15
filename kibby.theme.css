@@ -3200,7 +3200,7 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleColumn__133bf {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.4))
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
 }
 
 .searchBar__5ec2f {
@@ -3214,23 +3214,12 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleListItem_cc6179 {
-    border-top: 1px solid hsla(0, 0%, 100%, .1);
-    transition: all .15s ease-in-out
+    border-top: 1px solid hsla(0, 0%, 100%, .1)
 }
 
 .peopleListItem_cc6179:hover,
 .peopleListItem_cc6179.active_cc6179 {
-    background: var(--background-modifier-hover)
-}
-
-.peopleListItem_cc6179:hover .nickname_bbd192,
-.peopleListItem_cc6179.active_cc6179 .nickname_bbd192 {
-    color: var(--channel-hovered)
-}
-
-.peopleListItem_cc6179:hover .discordTag_bbd192,
-.peopleListItem_cc6179.active_cc6179 .discordTag_bbd192 {
-    color: var(--channel-hovered)
+    background-color: hsla(0, 0%, 100%, .05)
 }
 
 .activity__19b6d {
@@ -7689,50 +7678,28 @@ html:not(.visual-refresh) .input__991a0 {
 }
 
 .friend_bbd192 {
-    transition: all .15s ease-in-out;
-    position: relative
-}
-
-.friend_bbd192:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 100%;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to right, var(--main-color) 90%, transparent);
-    border-radius: 3px;
-    opacity: 0;
-    transition: all .3s ease-in-out;
-    z-index: -1
-}
-
-.friend_bbd192:hover:before,
-.friend_bbd192.friendSelected_bbd192:before {
-    opacity: .8
+    transition: all .15s ease-in-out
 }
 
 .theme-dark .friend_bbd192.friendSelected_bbd192 {
-    background: rgba(0, 0, 0, 0)
+    background: hsla(0, 0%, 100%, .1)
 }
 
 .theme-dark .friend_bbd192.friendSelected_bbd192 .nickname_bbd192 {
-    color: var(--channel-selected);
-    text-shadow: 0 0 3px rgba(0, 0, 0, .7)
+    color: #fff
 }
 
 .theme-dark .friend_bbd192.friendSelected_bbd192 .discordTag_bbd192 {
-    color: var(--channel-selected);
-    text-shadow: 0 0 3px rgba(0, 0, 0, .7)
+    color: hsla(0, 0%, 100%, .5)
 }
 
 .nickname_bbd192 {
-    color: var(--channel-color);
+    color: hsla(0, 0%, 100%, .7);
     transition: all .15s ease-in-out
 }
 
 .discordTag_bbd192 {
-    color: var(--channel-color);
+    color: hsla(0, 0%, 100%, .3);
     opacity: 1;
     transition: all .15s ease-in-out
 }

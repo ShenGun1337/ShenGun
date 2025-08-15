@@ -3200,7 +3200,7 @@ textarea::-webkit-scrollbar {
 }
 
 .peopleColumn__133bf {
-    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important
 }
 
 .searchBar__5ec2f {
@@ -3323,7 +3323,7 @@ textarea::-webkit-scrollbar {
 }
 
 .nowPlayingColumn__133bf {
-    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
+    background: rgba(0, 0, 0, calc(var(--background-shading) * 0.3)) !important
 }
 
 .container__7d20c {

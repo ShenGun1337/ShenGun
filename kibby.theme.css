@@ -11200,7 +11200,9 @@ div#magane div.stickerWindow div.packs-toolbar {
     font-size: 12px;
     line-height: 1.3333333333;
     font-weight: 400;
-    font-family: var(--font-primary)
+    font-family: var(--font-primary);
+    text-shadow: 0 0 10px var(--hsl-main-color), 0 0 20px var(--hsl-main-color), 0 0 30px var(--hsl-main-color);
+    filter: drop-shadow(0 0 5px var(--hsl-main-color))
 }
 
 .visual-refresh:not(.platform-osx) .leading_c38106::before {
